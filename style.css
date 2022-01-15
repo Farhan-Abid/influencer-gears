@@ -47,3 +47,41 @@ nav{
     font-size: 16px;
 
 }
+
+/* journey part styling  */
+
+.journey{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.journey-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.journey-left h1{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.journey-left p{
+    font-size: 16px;
+    color: #3A3A3A;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.journey-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.journey-right img{
+    width: 440px;
+    height: 414px;
+    
+}
