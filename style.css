@@ -259,6 +259,8 @@ footer{
     color: aqua;
 }
 
+/* media query section styling  */
+
 @media only screen and (max-width: 688px) {
     .journey{
         grid-template-columns: 1fr;
