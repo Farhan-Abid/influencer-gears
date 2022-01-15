@@ -101,6 +101,7 @@ nav{
     box-shadow: 0 7px 0 #af3a65e1;
     position: relative;
     top: 0;
+    display:inline-block;
 }
 
 .only-button:active{
@@ -256,4 +257,29 @@ footer{
 
 .socials a:hover i{
     color: aqua;
+}
+
+@media only screen and (max-width: 688px) {
+    .journey{
+        grid-template-columns: 1fr;
+        
+    }
+    .collections{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media only screen and (min-width: 688px) and (max-width: 850px) {
+    
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
